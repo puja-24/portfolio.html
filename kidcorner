@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alphabet Study</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff0f0;
+  }
+  .alphabet-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .alphabet-card {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFcc00;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+  <div class="alphabet-container">
+    <div class="alphabet-card">A - APPLE</div>
+    <div class="alphabet-card">B</div>
+    <div class="alphabet-card">C</div>
+    <div class="alphabet-card">D</div>
+    <div class="alphabet-card">E</div>
+    <div class="alphabet-card">F</div>
+    <div class="alphabet-card">G</div>
+    <div class="alphabet-card">H</div>
+    <div class="alphabet-card">I</div>
+    <div class="alphabet-card">J</div>
+    <div class="alphabet-card">K</div>
+    <div class="alphabet-card">L</div>
+    <div class="alphabet-card">M</div>
+    <div class="alphabet-card">N</div>
+    <div class="alphabet-card">O</div>
+    <div class="alphabet-card">P</div>
+    <div class="alphabet-card">Q</div>
+    <div class="alphabet-card">R</div>
+    <div class="alphabet-card">S</div>
+    <div class="alphabet-card">T</div>
+    <div class="alphabet-card">U</div>
+    <div class="alphabet-card">V</div>
+    <div class="alphabet-card">W</div>
+    <div class="alphabet-card">X</div>
+    <div class="alphabet-card">Y</div>
+    <div class="alphabet-card">Z</div>
+    
+    <!-- Add more alphabet cards as needed -->
+  </div>
+</body>
+</html>
