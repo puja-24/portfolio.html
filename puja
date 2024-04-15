@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Puja Rani Das - Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  h1, h2 {
+    margin: 0;
+    color: #ffcc00; /* Yellow color */
+  }
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #333; /* Dark background */
+  }
+  nav a:hover {
+    background-color: #555; /* Darker background on hover */
+  }
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  h3 {
+    color: #333;
+    background-color: #ffcc00; /* Yellow color */
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .project {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Puja Rani Das</h1>
+    <h2>Software Engineer</h2>
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h3>About Me</h3>
+      <p>I am a dedicated and enthusiastic Software Engineer with a passion for solving complex problems and creating innovative solutions.</p>
+    </section>
+
+    <section id="education">
+      <h3>Education</h3>
+      <ul>
+        <li>Bachelor of Technology in Electronics and Communication Engineering, NIT Jamshedpur</li>
+        <li>+2 Govt Girls High School Ranchi, Model School Nimdih</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming Languages: C, C++, Python</li>
+        <li>Web Development: HTML/CSS, JavaScript, React</li>
+        <li>Database Management: SQL, MongoDB</li>
+        <li>Soft Skills: Communication, Teamwork, Problem-solving</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="project">
+        <h4>Project Name 1</h4>
+        <p>Technologies: HTML, CSS, JavaScript</p>
+        <p>Role: Frontend Developer</p>
+        <a href="#">Live Demo</a> | <a href="#">GitHub Repo</a>
+      </div>
+      <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <ul>
+        <li>Email: pujaranidas2409@gmail.com</li>
+        <li>Phone: 9708711388</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/pujaranidas">Puja Rani Das</a></li>
+        <li>GitHub: <a href="https://github.com/puja-24">pujarani</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
