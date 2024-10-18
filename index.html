@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puja - Developer Portfolio</title>
+    <!-- <link rel="stylesheet" href="css.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 30px 0;
+        }
+
+        .leftSection .btn {
+            padding: 7px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .leftSection .buttons {
+            padding: 18px 0;
+        }
+
+        .rightSection img {
+            width: 250px;
+            height: 250px;
+            /* margin:50px 0; */
+
+            border-radius: 50%;
+
+        }
+
+        .purple {
+            color: rgb(153, 153, 226);
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.08rem;
+        }
+
+        #element {
+            color: rgb(153, 153, 226);
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(104, 104, 172);
+            height: 1px;
+            margin: 40px 80px;
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 130px;
+        }
+
+        .image-top {
+            width: 40px;
+            height: 40px;
+            position: relative;
+            top: -42px;
+            left: -9px;
+        }
+
+        .verticle-title {
+            position: relative;
+            top: 55px;
+        }
+
+        .verticle-desc {
+            position: relative;
+            top: 80px;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: rgb(27, 27, 33);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 22px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            color: gray;
+            text-align: center;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Puja's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple"> Puja</span>
+
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"><a href="https://github.com/puja-24">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="puja.jpg" alt=" ">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="verticle-title">
+                        HTML Developer (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I have a solid grasp of HTML for structuring web content with clean, organized, and
+                        user-friendly designs. I use semantic elements to improve readability and SEO, ensuring that
+                        webpages are both responsive and accessible. My expertise helps create smooth, user-focused web
+                        experiences.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="verticle-title">
+                        Java Script (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I am proficient in JavaScript, a powerful programming language for creating dynamic and
+                        interactive web experiences. With my skills, I can enhance website functionality by manipulating
+                        content, handling events, and building responsive, user-friendly interfaces.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="react.png" alt="">
+                    <div class="verticle-title">
+                        React js (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I have experience with React.js, a popular JavaScript library for building user interfaces. I
+                        can create dynamic, component-based web applications that are efficient and scalable, ensuring
+                        smooth and responsive user experiences while managing complex state and data flows.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="node.png" alt="">
+                    <div class="verticle-title">
+                        Node js (2023-2024)
+                    </div>
+                    <div class="verticle-desc">
+                        I am skilled in Node.js, a powerful runtime environment for building server-side applications.
+                        With Node.js, I can create scalable, high-performance backend solutions, handle asynchronous
+                        operations efficiently, and manage data and APIs for dynamic web applications.</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+
+            <div class="footer-first">
+                <h3>Puja's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="2023ugec031@nitjsr.ac.in">Email</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/puja-das-79b374289">Linkdin</a></li>
+                    <li></li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a href="https://github.com/puja-24">Github</a></li>
+                    <li></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; PujaPortfolio.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['coder', 'Web Designer', 'Web Doveloper'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
